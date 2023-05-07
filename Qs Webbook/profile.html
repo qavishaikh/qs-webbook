@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - QS Webbook</title>
+    <link rel="icon" type="image/x-icon" href="images/qs-icon.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> <!--<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script-->
+</head>
+<body>
+    <!------------Navbar---------------->
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="images/Logo-3.jpeg" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png" ></li>
+                <li><img src="images/inbox.png" ></li>
+                <li><img src="images/video.png" ></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="images/Profile-pic.jpg" >
+            </div>
+        </div>
+        <!---Setting menu-->
+        <div class="setting-menu">
+            
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/Profile-pic.jpg">
+                    <div>
+                        <p>Qavi Shaikh</p>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Tell us if any mistake</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="setting-icon">
+                    <a href="#">Setting & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="setting-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="setting-icon">
+                    <a href="#">Display & Accesbility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="setting-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </nav>
+
+    <!--  Profile Page  -->
+    <div class="profile-container">
+        <img src="images/Cover-1.jpg" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/Profile-pic.jpg" class="pd-image">
+                     <div>
+                        <h3>Qavi Shaikh</h3>
+                        <p>4,350 Friends - 30 Mutual</p>
+                        <img src="images/member-1.png">
+                        <img src="images/Member-2.jpg">
+                        <img src="images/Member-3.jpeg">
+                        <img src="images/Member-4.jpg">
+                     </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+                <button type="button"><img src="images/add-friends.png"> Friend</button>
+                <button type="button"><img src="images/message.png"> Message</button>
+                <br>
+                <a href="#"><img src="images/more.png" ></a>
+
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Belive in Yourself you can do EveryThing. <img src="images/feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-study.png"> Studied at GC University</li>
+                        <li><img src="images/profile-job.png">Senior Web Developer</li>
+                        <li><img src="images/profile-job.png"`> Director at QTW developers</li>
+                        <li><img src="images/profile-home.png">Languages Urdu & English</li>
+                        <li><img src="images/profile-location.png">Live in Pakistan</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="tittle-box">
+                        <h3>Photos</h3>
+                    <a href="">All Photos</a>
+
+                    </div>
+                    
+                    <div class="photo-box">
+                        <div><img src="images/Photo-1.jpg" ></div>
+                        <div><img src="images/Photo-2.jpg" ></div>
+                        <div><img src="images/Hamza.jpg" ></div>
+                        <div><img src="images/hassan.jpg" ></div>
+                        <div><img src="images/ali.jpg" ></div>
+                        <div><img src="images/Photo-3.jpg" ></div>
+                        <div><img src="images/Photo-4.jpg" ></div>
+                        <div><img src="images/Photo-5.jpg" ></div>
+                        <div><img src="images/Photo-6.jpg" ></div>
+                    </div>
+                </div>
+
+
+                <div class="profile-intro">
+                    <div class="tittle-box">
+                        <h3>Friends</h3>
+                    <a href="">All Friends</a>
+
+                    </div>
+                    <p>4,350 Friends (30 Mutual)</p>
+                    
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png" ><p>Aliza Noor</p></div>
+                        <div><img src="images/Member-2.jpg" ><p>M Hamdan</p></div>
+                        <div><img src="images/Member-3.jpeg" ><p>Rayan</p></div>
+                        <div><img src="images/member-5.png" ><p>Hussain</p></div>
+                        <div><img src="images/Member-4.jpg" ><p>Muzammil</p></div>
+                        <div><img src="images/member-7.png" ><p>Shayan</p></div>
+                        <div><img src="images/member-8.png" ><p>Areeba</p></div>
+                        <div><img src="images/member-9.png" ><p>Aman</p></div>
+                        <div><img src="images/photo1.png"  ><p>Ahsan</p></div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post-col">
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/Profile-pic.jpg">
+                        <div>
+                            <p>Qavi Shaikh</p>
+                            <small>Public <i class="fas fa-caret-down"></i> </small>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on Your mind Qavi?" ></textarea>
+                    </div>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png">Live Video</a>
+                        <a href="#"><img src="images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+                    </div>
+                </div>
+
+                <!--First Post Container-->
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/Profile-pic.jpg">
+                    <div>
+                        <p>Qavi Shaikh</p>
+                        <span>29 Sep 2022, 11:26 Am</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">With BEST Friends <span> <b>Muzammil & Qasim</b></span>,
+                At Jamshorro. <a href="#">#Qavishaikh</a>
+                <a href="#">#QSWebbook</a>
+            </p>
+            <img src="images/feed-1.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">20</div>
+                    <div><img src="images/comments.png">5</div>
+                    <div><img src="images/share.png">2</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/Profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+
+                 <!--Second Post Container-->
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/Profile-pic.jpg">
+                    <div>
+                        <p>Qavi Shaikh</p>
+                        <span>6 Sep 2022, 6:45 Am</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">School friends are <span> <b>Best Friend</b></span>, I miss my school life.
+                Right way high school. <a href="#">#Qavishaikh</a>
+                <a href="#">#QSWebbook</a>
+            </p>
+            <img src="images/Feed-image-1.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like.png">301</div>
+                    <div><img src="images/comments.png">93</div>
+                    <div><img src="images/share.png">21</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/Profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+        <!--Third Post Container-->
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/Profile-pic.jpg">
+                    <div>
+                        <p>Qavi Shaikh</p>
+                        <span>11 Aug 2022, 8:15 Am</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Good Morning Sunday Vibes<span> <b> Swiming Pool</b></span>, At Green City.
+                <a href="#">#UniFriends</a> <a href="#">#Greencity</a> 
+                <a href="#">#Karachi</a> <a href="#">#Qavishaikh</a>
+                <a href="#">#QSWebbook</a>
+            </p>
+            <img src="images/Feed-image-3.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">324</div>
+                    <div><img src="images/comments.png">12</div>
+                    <div><img src="images/share.png">6</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/Profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+        <!--Fourth Post Container-->
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/Profile-pic.jpg">
+                    <div>
+                        <p>Qavi Shaikh</p>
+                        <span>9 Aug 2022, 6:25 Am</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Friends<span> <b> Happy FriendShip Day</b></span> 
+                <a href="#">#friends</a> <a href="#">#Qavishaikh</a>
+                <a href="#">#QSWebbook</a>
+            </p>
+            
+            <img src="images/Two-3.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">110</div>
+                    <div><img src="images/comments.png">19</div>
+                    <div><img src="images/share.png">2</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/Profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+
+        <!--Fifth Post Container-->
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/Profile-pic.jpg">
+                    <div>
+                        <p>Qavi Shaikh</p>
+                        <span>15 Feb 2022, 6:25 Pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text"><span> <b>Team Sareaam</b></span>, Protect Against Kashmir Voilence.   
+                <a href="#">#Kashmir</a> <a href="#">#Qavishaikh</a>
+                <a href="#">#QSWebbook</a>
+            </p>
+            <img src="images/last.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like.png">261</div>
+                    <div><img src="images/comments.png">37</div>
+                    <div><img src="images/share.png">21</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/Profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+   
+
+   <div class="footer">
+    <p> &copy; Copyright  2022 - Muhammad Qavi Shaikh </p>
+   </div>
+    
+
+   <script src="script.js"></script>
+</body>
+</html>
